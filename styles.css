@@ -1,0 +1,164 @@
+/* Reset simples */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+}
+
+/* Container centralizador */
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* Cabeçalho */
+header {
+    background: linear-gradient(90deg, #FFD700, #C0C0C0);
+    color: black;
+    padding: 1rem 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+header nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Seção Principal (Hero) */
+.hero {
+    background: linear-gradient(135deg, #FFD700, #C0C0C0);
+    color: black;
+    text-align: center;
+    padding: 5rem 1rem;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.btn {
+    display: inline-block;
+    background: #FFD700;
+    color: black;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background: #C0C0C0;
+}
+
+/* Benefícios */
+.beneficios {
+    padding: 3rem 1rem;
+    background: white;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.card {
+    background: linear-gradient(145deg, #FFD700, #C0C0C0);
+    padding: 1.5rem;
+    border-radius: 8px;
+    color: black;
+    font-weight: bold;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+    width: 300px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Contato */
+.contato {
+    padding: 3rem 1rem;
+    text-align: center;
+    background: #f5f5f5;
+}
+
+form {
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+input, textarea {
+    padding: 0.8rem;
+    border: 1px solid #C0C0C0;
+    border-radius: 5px;
+}
+
+button {
+    background: #FFD700;
+    color: black;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background: #C0C0C0;
+}
+
+/* Rodapé */
+footer {
+    background: linear-gradient(90deg, #FFD700, #C0C0C0);
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    font-weight: bold;
+}
